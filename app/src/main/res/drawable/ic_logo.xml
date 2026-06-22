@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Outer circle background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M100,10 A90,90 0 1,1 99.9,10 Z" />
+
+    <!-- Book shape (blue) -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M45,65 L100,55 L155,65 L155,145 L100,135 L45,145 Z" />
+
+    <!-- Book spine line -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M100,55 L100,135"
+        android:strokeColor="#0D47A1"
+        android:strokeWidth="3" />
+
+    <!-- Left page lines -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M55,80 L95,76 L95,82 L55,86 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M55,90 L95,87 L95,93 L55,96 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M55,100 L95,97 L95,103 L55,106 Z" />
+
+    <!-- Right page lines -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M105,76 L145,80 L145,86 L105,82 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M105,87 L145,90 L145,96 L105,93 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M105,97 L145,100 L145,106 L105,103 Z" />
+
+    <!-- Taka symbol (gold) -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M85,108 Q100,95 115,108 L115,120 Q100,132 85,120 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M95,108 L95,125 M92,114 L108,114"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+
+    <!-- Cap (graduation) -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M100,38 L125,50 L100,62 L75,50 Z" />
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M120,52 L120,64 Q120,70 115,70 Q110,70 110,64 L110,52 Z" />
+
+</vector>

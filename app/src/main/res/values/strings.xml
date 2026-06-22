@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EduFeeMaker</string>
+    <string name="app_url">https://edufeemaker.page.gd</string>
+    <string name="no_internet">ইন্টারনেট সংযোগ নেই</string>
+    <string name="retry">আবার চেষ্টা করুন</string>
+    <string name="loading">লোড হচ্ছে...</string>
+    <string name="download_started">ডাউনলোড শুরু হয়েছে</string>
+    <string name="download_complete">ডাউনলোড সম্পন্ন</string>
+    <string name="back_press_exit">আবার Back চাপুন বের হতে</string>
+</resources>

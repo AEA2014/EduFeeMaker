@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M0,0 L108,0 L108,108 L0,108 Z" />
+
+    <!-- Book -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M22,38 L54,30 L86,38 L86,78 L54,70 L22,78 Z" />
+
+    <!-- Spine -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M54,30 L54,70 L56,70 L56,30 Z" />
+
+    <!-- Lines left -->
+    <path android:fillColor="#1565C0" android:pathData="M28,46 L50,43 L50,47 L28,50 Z" />
+    <path android:fillColor="#1565C0" android:pathData="M28,52 L50,50 L50,54 L28,56 Z" />
+    <path android:fillColor="#1565C0" android:pathData="M28,58 L50,56 L50,60 L28,62 Z" />
+
+    <!-- Lines right -->
+    <path android:fillColor="#1565C0" android:pathData="M58,43 L80,46 L80,50 L58,47 Z" />
+    <path android:fillColor="#1565C0" android:pathData="M58,50 L80,52 L80,56 L58,54 Z" />
+    <path android:fillColor="#1565C0" android:pathData="M58,56 L80,58 L80,62 L58,60 Z" />
+
+    <!-- Graduation cap -->
+    <path android:fillColor="#FFC107" android:pathData="M54,20 L70,27 L54,34 L38,27 Z" />
+
+</vector>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- WiFi arc 1 (outer) - grey -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#BDBDBD"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M15,52 A50,50 0 0,1 85,52" />
+
+    <!-- WiFi arc 2 (middle) -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#BDBDBD"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M27,64 A35,35 0 0,1 73,64" />
+
+    <!-- WiFi arc 3 (inner) -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#BDBDBD"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M39,76 A20,20 0 0,1 61,76" />
+
+    <!-- Center dot -->
+    <circle
+        android:fillColor="#BDBDBD"
+        android:cx="50"
+        android:cy="83"
+        android:r="5" />
+
+    <!-- X mark (red diagonal lines) -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#F44336"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M30,20 L70,60" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#F44336"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M70,20 L30,60" />
+
+</vector>
